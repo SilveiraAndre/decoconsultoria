@@ -1,0 +1,38 @@
+.carousel {
+    position: relative;
+    background-size: cover;
+    /* max-width: 100px; */
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    min-height: calc(100vh - 91px);
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
